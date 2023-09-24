@@ -1,0 +1,7 @@
+<div *ngIf="dumbData">
+    <h3>Dumb Component</h3>
+    <!-- Display data received from the smart component -->
+    <p>{{dumbData.name + ' ' + dumbData.lastname}} </p>
+    <button (click)="onButtonClick()">Click Me</button>
+    <button (click)="sendMessage()">Output Event</button>
+  </div>
